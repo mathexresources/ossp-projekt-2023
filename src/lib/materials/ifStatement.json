@@ -1,0 +1,57 @@
+{
+	"name": "ifStatement",
+	"header": "If Statement",
+	"body": "“if” statement je základní řídící konstrukce v programovacích jazycích, která umožňuje provádět různé akce podle toho, zda je určitá podmínka pravdivá (true) nebo nepravdivá (false).<br>V každém z těchto jazyků můžete použít “if” statement k testování podmínek a následně vykonání příslušných částí kódu podle toho, jak podmínka dopadne.",
+	"languages": [
+		{
+			"displayName": "Python",
+			"name": "python",
+			"body": "x = 10\nif x > 5:\n    print(\"x je větší než 5\")"
+		},
+		{
+			"displayName": "PHP",
+			"name": "php",
+			"body": "$x = 10;\nif ($x > 5) {\n    echo \"x je větší než 5\";\n}"
+		},
+		{
+			"displayName": "C++",
+			"name": "cpp",
+			"body": "int x = 10;\nif (x > 5) {\n    std::cout << x;\n}"
+		},
+		{ 
+			"displayName": "JavaScript",
+			"name": "js",
+			"body": "let x = 10;\nif (x > 5) {\n    console.log(\"x je větší než 5\");\n}"
+		},
+		{
+			"displayName": "TypeScript",
+			"name": "ts",
+			"body": "let x: Number = 10;\nif (x > 5) {\n    console.log(\"x je větší než 5\");\n}"
+		},
+		{
+			"displayName": "Java",
+			"name": "java",
+			"body": "int x = 10;\nif (x > 5) {\n    System.out.println(\"x je větší než 5\");\n}"
+		},
+		{
+			"displayName": "C#",
+			"name": "cs",
+			"body": "int x = 10;\nif (x > 5) {\n    Console.WriteLine(\"x je větší než 5\");\n}"
+		},
+		{
+			"displayName": "GoLang",
+			"name": "golang",
+			"body": "int x := 10\nif x > 5 {\n    fmt.Println(\"x je větší než 5\")\n}"
+		},
+		{
+			"displayName": "Ruby",
+			"name": "ruby",
+			"body": "x = 10\nif x > 5\n    puts \"x je větší než 5\""
+		},
+		{
+			"displayName": "Diagram",
+			"name": "diagram",
+			"url": "https://cdn.discordapp.com/attachments/1020687665483493376/1164839213921992815/Comp_2.gif"
+		}
+	]
+}

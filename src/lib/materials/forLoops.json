@@ -1,0 +1,57 @@
+{
+	"name": "forLoops",
+	"header": "Cykly",
+	"body": "Cyklus v programování je to řídící struktura kódu, která zajišťuje, že se část kódu několikrát opakuje v závislosti na splnění určité podmínky<br><br> Běžně by se daly cykly rozdělit na:<br> - s podmínkou na začátku (while-do cyklus)<br> - s podmínkou na konci (do-while cyklus)<br> - s pevným počtem opakování (tzv. for cyklus) Průchod tělem cyklu se někdy nazývá iterace.",
+	"languages": [
+		{
+			"displayName": "Python",
+			"name": "python",
+			"body": "for i in range(10):\n    print(i)"
+		},
+		{
+			"displayName": "PHP",
+			"name": "php",
+			"body": "for ($i = 0; $i < 10; $i++) {\n    echo $i;\n}"
+		},
+		{
+			"displayName": "C++",
+			"name": "cpp",
+			"body": "for (int i = 0; i < 10; i++) {\n    std::cout << i << std::endl;\n}"
+		},
+		{
+			"displayName": "JavaScript",
+			"name": "js",
+			"body": "for (let i = 0; i < 10; i++) {\n    console.log(i);\n}"
+		},
+		{
+			"displayName": "TypeScript",
+			"name": "ts",
+			"body": "for (let i: Number = 0; i < 10; i++) {\n    console.log(i);\n}"
+		},
+		{
+			"displayName": "Java",
+			"name": "java",
+			"body": "for (int i = 0; i < 10; i++) {\n    System.out.println(i);\n}"
+		},
+		{
+			"displayName": "C#",
+			"name": "cs",
+			"body": "for (int i = 0; i < 10; i++) {\n    Console.WriteLine(i);\n}"
+		},
+		{
+			"displayName": "GoLang",
+			"name": "golang",
+			"body": "for i := 0; i < 10; i++ {\n    fmt.Println(i)\n}"
+		},
+		{
+			"displayName": "Ruby",
+			"name": "ruby",
+			"body": "for i in 0..9\n    puts i\nend"
+		},
+		{
+			"displayName": "Diagram",
+			"name": "diagram",
+			"url": ""
+		}
+	]
+}

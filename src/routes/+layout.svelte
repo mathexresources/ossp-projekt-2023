@@ -1,4 +1,5 @@
 <script lang="ts">
+	// export const prerender = true;
 </script>
 
 <nav class="navbar">
@@ -98,6 +99,7 @@
 
 	main {
 		margin-left: 5rem;
+		margin-top: 5rem;
 		padding: 1rem;
 		font-size: 1.25rem;
 	}
@@ -108,6 +110,7 @@
 		position: fixed;
 		background-color: var(--bg-secondary);
 		transition: width 200ms ease;
+		z-index: 10;
 	}
 
 	.navbar-nav {
@@ -220,6 +223,7 @@
 
 		main {
 			margin: 0;
+			margin-top: 5rem;
 			margin-bottom: 5rem;
 		}
 	}

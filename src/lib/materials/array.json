@@ -1,0 +1,57 @@
+{
+	"name": "array",
+	"header": "Array (Pole)",
+	"body": "<span style=\"font-weight: bold; color: white;\">Co to je:</span><br> Datová struktura, která sdružuje daný vždy konečný počet prvků (čísel, textových řetězců, …) stejného datového typu, v určitých jazycích nemusí být stejný typ (Python, PHP, JavaScript, Ruby). K jednotlivým prvkům pole se přistupuje pomocí jejich indexu (celého čísla, označujícího pořadí prvku v rámci pole). Velikost pole zůstává při běhu programu neměnná (některé programovací jazyky toto omezení nekladou, zvětšení pole je ale časově náročná operace).<br><br><span style=\"font-weight: bold; color: white;\">Rozdělení:</span><br> - Statická pole - jsou pole s pevně daným počtem prvků.<br> - Dynamická pole - jsou pole s proměnlivým počtem prvků.",
+	"languages": [
+		{
+			"displayName": "Python",
+			"name": "python",
+			"body": "x = [1, 2, 3, 4]"
+		},
+		{
+			"displayName": "PHP",
+			"name": "php",
+			"body": "$x = [1, 2, 3, 4];"
+		},
+		{
+			"displayName": "C++",
+			"name": "cpp",
+			"body": "int[] x = {1, 2, 3, 4};"
+		},
+		{
+			"displayName": "JavaScript",
+			"name": "js",
+			"body": "let x = [1, 2, 3, 4];"
+		},
+		{
+			"displayName": "TypeScript",
+			"name": "ts",
+			"body": "let x: Number[] = [1, 2, 3, 4];"
+		},
+		{
+			"displayName": "Java",
+			"name": "java",
+			"body": "int[] x = {1, 2, 3, 4};"
+		},
+		{
+			"displayName": "C#",
+			"name": "cs",
+			"body": "int[] x = {1, 2, 3, 4};"
+		},
+		{
+			"displayName": "GoLang",
+			"name": "golang",
+			"body": "x := [4]int{1, 2, 3, 4}"
+		},
+		{
+			"displayName": "Ruby",
+			"name": "ruby",
+			"body": "x = Array[1, 2, 3, 4]"
+		},
+		{
+			"displayName": "Diagram",
+			"name": "diagram",
+			"url": ""
+		}
+	]
+}
