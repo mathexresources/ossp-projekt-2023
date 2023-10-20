@@ -1,17 +1,13 @@
 <script lang="ts">
 	import CodeDescription from "$lib/components/CodeDescription.svelte";
 import CodePiece from "$lib/components/CodePiece.svelte";
-    let names = ["ifStatement", "forLoops", "array"];
+    let names = ["dataTypes", "array", "ifStatement", "forLoops", "functions"];
 </script>
-<h1>Code Syntaxes</h1>
-<!-- <div class="margin"></div> -->
+<div class="header"><h1>Settings</h1><img src="logo.png" alt="logo"></div>
+
 {#each names as name}
     <div class="container">
         <div class="left">
-            <!-- <h2>{section.header}</h2>
-            <p>
-                {section.body}
-            </p> -->
             <CodeDescription section="{name}" />
         </div>
         <div class="right">
@@ -22,7 +18,7 @@ import CodePiece from "$lib/components/CodePiece.svelte";
 {/each}
 
 <style>
-    h1 {
+    .header {
         position: fixed;
         background: #1c1c1c;
         padding: 1rem;
@@ -35,17 +31,28 @@ import CodePiece from "$lib/components/CodePiece.svelte";
         /* margin-bottom: 10rem; */
     }
 
-    hr {
-        border: 1px rgb(67, 67, 67) solid;
-        margin-block: 1rem;
+    .header img {
+        width: 10rem;
+        position: fixed;
+        right: 0.75rem;
+        top: 0.75rem;
     }
 
     @media only screen and (max-width: 600px) {
-		h1 {
+        .header img {
+            position: relative;
+            display: block;
+            right: inherit;
+            top: inherit;
+        }
+		.header {
             width: 100vw;
             /* margin-bottom: 5rem; */
             left: 0;
             top: 0;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
         }
 	}
 </style>

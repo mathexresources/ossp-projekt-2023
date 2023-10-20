@@ -1,0 +1,57 @@
+{
+	"name": "dataTypes",
+	"header": "Datové Typy",
+	"body": "Datové typy určují, jakým způsobem se data uloží a zpracovávají v počítači.<br> Každý datový typ má vlastnosti a omezení, které určují, jakým způsobem se data chovají.",
+	"languages": [
+		{
+			"displayName": "Python",
+			"name": "python",
+			"body": "x = False #boolean\nx = \"Hello World\" #string\nx = 20 #intiger\nx = 20.5 #float\nx = 1j #complex\nx = [\"apple\", \"banana\", \"cherry\"] #list\nx = (\"apple\", \"banana\", \"cherry\") #tuple\nx = range(6) #range\nx = {\"name\" : \"John\", \"age\" : 36} #dict\nx = {\"apple\", \"banana\", \"cherry\"} #set\nx = frozenset({\"apple\", \"banana\", \"cherry\"}) #frozenset\nx = True #bool\nx = b\"Hello\" #bytes\nx = bytearray(5) #bytearray\nx = memoryview(bytes(5)) #memoryview\nx = None\n"
+		},
+		{
+			"displayName": "PHP",
+			"name": "php",
+			"body": "$x = \"Hello world!\"; //string\n$x = 20; //intiger\n$x = 3.14; //float\n$x = false; //boolean\n$x = [\"apple\", \"banana\", \"cherry\"]; //array\n"
+		},
+		{
+			"displayName": "C++",
+			"name": "cpp",
+			"body": "string x = \"Hello\";     // string\nint x = 5;               // integer\nfloat x = 5.99;     // floating point number\nbool x = true;       // boolean\nchar x = 'D';         // character"
+		},
+		{
+			"displayName": "JavaScript",
+			"name": "js",
+			"body": "let x = \"Yellow\"; // string\nlet x = 16; // Numbers\nlet x = 7.5; // Numbers\nlet x = false; // boolean\nconst x = {firstName:\"John\", lastName:\"Doe\"}; // object\nconst x = [\"Saab\", \"Volvo\", \"BMW\"]; // array\nconst x = new Date(\"2022-03-25\"); // date"
+		},
+		{
+			"displayName": "TypeScript",
+			"name": "ts",
+			"body": "let x = \"Yellow\"; // string\nlet x = 16; // Numbers\nlet x = 7.5; // Numbers\nlet x = false; // boolean\nconst x = {firstName:\"John\", lastName:\"Doe\"}; // object\nconst x = [\"Saab\", \"Volvo\", \"BMW\"]; // array\nconst x = new Date(\"2022-03-25\"); // date"
+		},
+		{
+			"displayName": "Java",
+			"name": "java",
+			"body": "\nString x = \"Hello\"; // string\nint x = 5; // integer (whole number)\nfloat x = 5.99f; // floating point number\nboolean x = true; // boolean\nchar x = 'D'; // character"
+		},
+		{
+			"displayName": "C#",
+			"name": "cs",
+			"body": "\nstring x = \"Hello\"; // string\nint x = 5; // integer (whole number)\nfloat x = 5.99f; // floating point number\nboolean x = true; // boolean\nchar x = 'D'; // character"
+		},
+		{
+			"displayName": "GoLang",
+			"name": "golang",
+			"body": "var x string = \"Hi!\" // string\nvar x int = 5 // integer\nvar x float32 = 3.14  // floating point number\nvar x bool = true // boolean"
+		},
+		{
+			"displayName": "Ruby",
+			"name": "ruby",
+			"body": "x = \"Hello World\" #string\nx = 20 #intiger\nx = 20.5 #float\nx = 1j #complex\nx = [\"apple\", \"banana\", \"cherry\"] #list\nx = false # boolean"
+		},
+		{
+			"displayName": "Diagram",
+			"name": "diagram",
+			"url": ""
+		}
+	]
+}

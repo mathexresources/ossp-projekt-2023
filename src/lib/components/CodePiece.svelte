@@ -9,7 +9,14 @@
     function changeLang(toChange: string) {
         languageSelected = toChange;
     }
+
+	import { HighlightSvelte } from "svelte-highlight";
+    import atomOneDark from "svelte-highlight/styles/atom-one-dark";
 </script>
+
+<svelte:head>
+  {@html atomOneDark}
+</svelte:head>
 
 {#await filePromise}
     <h1>Loading</h1>
@@ -17,17 +24,19 @@
     <pre>
         <ul>
             {#each sect.languages as lang}
-                <li><button class="{languageSelected == lang.name ? "active" : ""}" on:click|preventDefault={() => changeLang(lang.name)}>{lang.displayName}</button></li>
+                <li><button class="{languageSelected == lang.name ? "active" : ""}" disabled={lang.name == "diagram"} on:click|preventDefault={() => changeLang(lang.name)}>{lang.displayName}</button></li>
             {/each}
         </ul>
         {#each sect.languages as lang}
             {#if languageSelected == (lang.name) && languageSelected != "diagram"}
-                <div><code>{lang.body}</code></div>
+                <!-- <div><code class="prettyprint lang-{lang.name}">{lang.body}</code></div> -->
+                <HighlightSvelte code={lang.body} />
             {:else if languageSelected == "diagram" && lang.name == "diagram"}
                 <div class="center"><img src="{lang.url}" alt="Diagram"></div>
             {/if}
         {/each} 
     </pre>
+    
 {/await}
 
 <style>
@@ -51,9 +60,10 @@
         justify-content: space-evenly;
     }
 
-    code {
+    /* code {
+        /* color: initial; 
         font-size: 1.5vw;
-    }
+    } */
 
     button {
         margin: .25rem;
@@ -98,9 +108,9 @@
         button {
             font-size: 3vw;
         }
-        code {
+        /* code {
             font-size: 3vw;
-        }
+        } */
 
         pre {
             margin-bottom: 1rem;

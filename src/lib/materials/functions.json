@@ -1,0 +1,58 @@
+
+{
+	"name": "functions",
+	"header": "Funkce",
+	"body": "V programování je funkce část programu, kterou je možné opakovaně volat z různých míst kódu. Funkce může mít argumenty (též parametry) – údaje, které jí jsou předávány při volání – a návratovou hodnotu, kterou naopak vrací. Na rozdíl od funkce v matematice nemusí výsledek funkce v programu záviset jen na jejích argumentech – v průběhu svého běhu může samostatně získávat data z paměti nebo jiných vstupů a provádět i výstupní operace, takže návratová hodnota zdaleka nemusí být jejím jediným výsledkem (viz vedlejší účinek) a funkce také nemusí mít žádné formální parametry (typ. funkce vracející hodnotu stisknuté klávesy). Často nemusí funkce vracet žádnou hodnotu, potom se taková funkce může nazývat procedurou. V objektově orientovaném programování se funkce náležející nějaké třídě nazývají metodami. ",
+	"languages": [
+		{
+			"displayName": "Python",
+			"name": "python",
+			"body": "x = [1, 2, 3, 4]"
+		},
+		{
+			"displayName": "PHP",
+			"name": "php",
+			"body": "$x = [1, 2, 3, 4];"
+		},
+		{
+			"displayName": "C++",
+			"name": "cpp",
+			"body": "int[] x = {1, 2, 3, 4};"
+		},
+		{
+			"displayName": "JavaScript",
+			"name": "js",
+			"body": "let x = [1, 2, 3, 4];"
+		},
+		{
+			"displayName": "TypeScript",
+			"name": "ts",
+			"body": "let x: Number[] = [1, 2, 3, 4];"
+		},
+		{
+			"displayName": "Java",
+			"name": "java",
+			"body": "int[] x = {1, 2, 3, 4};"
+		},
+		{
+			"displayName": "C#",
+			"name": "cs",
+			"body": "int[] x = {1, 2, 3, 4};"
+		},
+		{
+			"displayName": "GoLang",
+			"name": "golang",
+			"body": "x := [4]int{1, 2, 3, 4}"
+		},
+		{
+			"displayName": "Ruby",
+			"name": "ruby",
+			"body": "x = Array[1, 2, 3, 4]"
+		},
+		{
+			"displayName": "Diagram",
+			"name": "diagram",
+			"url": ""
+		}
+	]
+}
