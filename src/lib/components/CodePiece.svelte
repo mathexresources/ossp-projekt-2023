@@ -68,23 +68,23 @@
         {/if}
     {:else if sectionName === "array"}
         {#if languageSelected === "python"}
-            <HighlightSvelte code={"x = [1, 2, 3, 4]"} lang="python" />
+            <HighlightSvelte code={"x = [1, 2, 3, 4]\nprint(\"Druhé číslo v poli: \", x[2])"} lang="python" />
         {:else if languageSelected === "php"}
-            <HighlightSvelte code={"$x = [1, 2, 3, 4];"} lang="php" />
+            <HighlightSvelte code={"$x = [1, 2, 3, 4];\necho \"Druhé číslo v poli: \" . $x[2];"} lang="php" />
         {:else if languageSelected === "cpp"}
-            <HighlightSvelte code={"int[] x = {1, 2, 3, 4};"} lang="cpp" />
+            <HighlightSvelte code={"#include <iostream>\n\nint main() {\n    int[] x = {1, 2, 3, 4};\n    std::cout << \"Druhé číslo v poli: \" << x[2] << std::endl;\n    return 0;\n}\n"} lang="cpp" />
         {:else if languageSelected === "js"}
-            <HighlightSvelte code={"let x = [1, 2, 3, 4];"} lang="javascript" />
+            <HighlightSvelte code={"let x = [1, 2, 3, 4];\nconsole.log(\"Druhé číslo v poli: \" + x[2]);"} lang="javascript" />
         {:else if languageSelected === "ts"}
-            <HighlightSvelte code={"let x: Number[] = [1, 2, 3, 4];"} lang="typescript" />
+            <HighlightSvelte code={"let x: Number[] = [1, 2, 3, 4];\nconsole.log(\"Druhé číslo v poli: \" + x[2]);"} lang="typescript" />
         {:else if languageSelected === "java"}
-            <HighlightSvelte code={"int[] x = {1, 2, 3, 4};"} lang="java" />
+            <HighlightSvelte code={"int[] x = {1, 2, 3, 4};\nSystem.out.println(\"Druhé číslo v poli: \" + x[2]);"} lang="java" />
         {:else if languageSelected === "cs"}
-            <HighlightSvelte code={"int[] x = {1, 2, 3, 4};"} lang="csharp" />
+            <HighlightSvelte code={"int[] x = {1, 2, 3, 4};\nConsole.WriteLine(\"Druhé číslo v poli: \" + x[2])"} lang="csharp" />
         {:else if languageSelected === "go"}
-            <HighlightSvelte code={"x := [4]int{1, 2, 3, 4}"} lang="golang" />
+            <HighlightSvelte code={"x := [4]int{1, 2, 3, 4}\nfmt.println(\"Druhé číslo v poli: \" + x[2])"} lang="golang" />
         {:else if languageSelected === "ruby"}
-            <HighlightSvelte code={"x = Array[1, 2, 3, 4]"} lang="ruby" />
+            <HighlightSvelte code={"x = Array[1, 2, 3, 4]\nputs \"Druhé číslo v poli: #{x[2]}\""} lang="ruby" />
         {/if}
     {:else if sectionName === "ifStatement"}
         {#if languageSelected === "python"}
