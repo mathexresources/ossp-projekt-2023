@@ -4,7 +4,7 @@
     $: value = window.localStorage.getItem('language');
 </script>
 
-<div class="header"><h1>Settings</h1><img src="logo.png" alt="logo"></div>
+<div class="header"><h1>Settings</h1><a href="/"><img src="logo.png" alt="logo"></a></div>
 <h2>Primary Language = {value}</h2>
 <select name="language" bind:value={value} id="lang">
     <option value="python">Python</option>
