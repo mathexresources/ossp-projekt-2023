@@ -185,7 +185,7 @@
     }
 
     .hero {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero-image.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.discordapp.net/attachments/1014890487146106881/1165004562088865843/IMG_4399.jpg");
         height: 400px;
         background-position: center;
         background-repeat: no-repeat;

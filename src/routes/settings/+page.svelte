@@ -1,7 +1,7 @@
 <script lang="ts">
 	import language from '$lib/language';
 
-	$: value = window.localStorage.getItem('language');
+	$: value = typeof window.localStorage.getItem('language') === "undefined" ? "python" : window.localStorage.getItem('language');
 </script>
 
 <div class="header">
